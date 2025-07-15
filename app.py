@@ -4,6 +4,7 @@ import functions
 todos = functions.get_todos(filepath="todos.txt")
 st.title("my todo app")
 st.subheader('this app is to manage the daily tasks')
+st.subheader('this app is to manage the daily tasks')
 
 
 for todo in todos:
