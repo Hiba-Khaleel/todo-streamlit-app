@@ -12,7 +12,6 @@ def addtodo():
 todos = functions.get_todos()
 st.title("my todo app")
 st.subheader('this app is to manage the daily tasks')
-st.subheader('this app is to manage the daily tasks')
 
 
 for index, todo in enumerate(todos):
